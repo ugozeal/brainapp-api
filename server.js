@@ -15,7 +15,7 @@ const image = require('./controllers/image');
 const db =knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'brainapp-api>postgresql-flat-54863',
     user : 'postgres',
     password : 'onyedikachi@12',
     database : 'Brainapp'
